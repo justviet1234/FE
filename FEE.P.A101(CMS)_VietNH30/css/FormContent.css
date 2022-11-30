@@ -1,0 +1,33 @@
+.title{
+    background-color: #f2f2f2;
+}
+.usericon1{
+    color: blue;
+}
+.usericon2{
+    color: black;
+}
+.down{
+    border: ridge;
+}
+.left{
+    border: outset;
+    background-color: #f2f2f2;
+}
+.right{
+    border: ridge;
+    padding: 10px;
+}
+.top{
+    background-color: #f2f2f2;
+    border: ridge;
+    padding: 10px;
+}
+.indam{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

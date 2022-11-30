@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+body{
+    background-color: #003f69;;
+    
+}
+.form1{
+    width: 32%;
+    margin: 45px auto;
+    background:#fff;
+    padding: 30px 30px;
+}
+.main-row{
+    margin-bottom: 17px;
+}
+.input{
+    font-size: 13px;
+    padding: 8px 10px;
+}
+
+.pdf{
+    font-size: 10px;
+}
+.button{
+    padding-top: 15px;
+    padding-left: 250px;
+}
+.button1{
+    background-color: Orange;
+    border: none;
+    color: white;
+    padding: 3px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2{
+    margin-left: 15px;
+}

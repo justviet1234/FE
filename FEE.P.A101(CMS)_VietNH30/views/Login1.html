@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="/css/Login1.css">
+<title>Transaction Management Page</title>
+</head>
+<body>
+	<div class="frame">
+        <p>Banking System</p>
+        <hr>
+        <div class="nav_content">
+            <br>
+            <a href="/view/TransactionManagement.jsp">Transfer</a><br>
+            <a href="/view/Login.jsp">Logout</a>
+        </div>
+        <div class="transfer_form">
+            <form action="TransferController" method="post">
+                <p><b>Your balance</b></p>
+                <div class="amount">
+                    <p><b>Enter amount</b></p>
+                    <input type="number" name="amount" id="amount">
+                </div>
+                <p><b>Select account to transfer</b></p>
+                <div class="select-account">
+                    <select name="select-account" id="select-account">
+                        <option value="account2">account2</option>
+                        <option value="account3">account3</option>
+                        <option value="account4">account4</option>
+                    </select>
+                </div>
+                <div class="transaction_note">
+                    <p><b>Transaction note</b></p>
+                    <textarea name="transaction_note" id="transaction_note"></textarea>
+                </div>
+
+                <div class="transfer_button">
+                    <button type="submit">Transfer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

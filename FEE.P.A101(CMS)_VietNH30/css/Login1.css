@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.frame {
+    width: 1500px;
+    height: 700px;
+    border: 3px solid gray;
+    margin-left: 20px;
+
+}
+
+.frame p {
+    padding-left: 50px;
+}
+
+hr {
+    border: 2px solid gray;
+}
+
+.nav_content {
+    width: 400px;
+    height: 700px;
+    border: 3px solid gray;
+    float: left;
+    margin-top: -10px;
+}
+
+.nav_content a {
+    margin-left: 40px;  
+}
+
+.transfer_form {
+    margin-left: 400px;
+}
+
+.amount input {
+    margin-left: 50px;
+    height: 35px;
+    width: 700px;
+}
+
+.select-account select {
+    margin-left: 50px;
+    height: 35px;
+    width: 700px;
+    background-color: white;
+}
+
+.transaction_note textarea {
+    margin-left: 50px;
+    height: 80px;
+    width: 700px;
+}
+
+.transfer_button button{
+    margin-left: 50px;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 0%;
+}
+

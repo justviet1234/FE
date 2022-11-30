@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><br>
+
+<head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+    <script>
+        function js_style() {
+            var list = document.getElementById("style");
+            var p = document.getElementById("text");
+            var choice = parseInt(list.value);
+            switch (choice) {
+                case 1:
+                    p.style.color = "Red";
+                    break;
+                case 2:
+                    p.style.color = "blue";
+                    break;
+                case 3:
+                    p.style.color = "yellow";
+                    break;
+                default:
+                    p.style.color = "black";
+                    break;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <p id='text'>JavaScript Exercises - w3resource</p>
+    <div>
+        <select id="style" onchange="js_style()">
+            <option value="0" selected="selected">Black</option>
+            <option value="1">Red</option>
+            <option value="2">Blue</option>
+            <option value="3">Yellow</option>
+        </select>
+    </div>
+</body>
+
+</html>
